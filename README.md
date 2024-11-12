@@ -187,7 +187,7 @@ All the features of istanbul can be accessed as a library.
 #### Instrument code
 
 ```javascript
-    var istanbul = require('istanbul');
+    var istanbul = require('@thetrg/istanbul');
     var instrumenter = new istanbul.Instrumenter();
 
     var generatedCode = instrumenter.instrumentSync('function meaningOfLife() { return 42; }',
@@ -197,7 +197,7 @@ All the features of istanbul can be accessed as a library.
 #### Generate reports given a bunch of coverage JSON objects
 
 ```javascript
-    var istanbul = require('istanbul'),
+    var istanbul = require('@thetrg/istanbul'),
         collector = new istanbul.Collector(),
         reporter = new istanbul.Reporter(),
         sync = false;

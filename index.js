@@ -19,7 +19,7 @@ require('./lib/register-plugins');
  * Usage
  * -----
  *
- *      var istanbul = require('istanbul');
+ *      var istanbul = require('@thetrg/istanbul');
  *
  *
  * @class Istanbul
